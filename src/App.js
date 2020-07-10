@@ -21,21 +21,11 @@ class App extends React.Component {
           <Navbar />
           <div className="App">
             <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route exact path="/about">
-                <About />
-              </Route>
-              <Route exact path="/services">
-                <Services />
-              </Route>
-              <Route exact path="/contacts">
-                <Contacts />
-              </Route>
-              <Route exact path="/login">
-                <LoginForm />
-              </Route>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/services" component={Services} />
+              <Route exact path="/contacts" component={Contacts} />
+              <Route exact path="/login" component={LoginForm} />
             </Switch>
           </div>
         </Router>

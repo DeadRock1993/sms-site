@@ -37,6 +37,7 @@ export class Register extends React.Component {
       case "passwordCheck":
         formErrors.passwordCheck =
           value.length < 8 ? "Не менее 8 символов" : "";
+        break;
       default:
         break;
     }

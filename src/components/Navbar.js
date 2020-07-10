@@ -42,7 +42,7 @@ const Navbar = () => {
               focusable="false"
               data-prefix="fas"
               data-icon="home"
-              class="svg-inline--fa fa-home fa-w-18"
+              className="svg-inline--fa fa-home fa-w-18"
               role="img"
               viewBox="0 0 576 512"
             >
@@ -63,7 +63,7 @@ const Navbar = () => {
               focusable="false"
               data-prefix="fas"
               data-icon="users"
-              class="svg-inline--fa fa-users fa-w-20"
+              className="svg-inline--fa fa-users fa-w-20"
               role="img"
               viewBox="0 0 640 512"
             >
@@ -84,7 +84,7 @@ const Navbar = () => {
               focusable="false"
               data-prefix="fas"
               data-icon="cog"
-              class="svg-inline--fa fa-cog fa-w-16"
+              className="svg-inline--fa fa-cog fa-w-16"
               role="img"
               viewBox="0 0 512 512"
             >
