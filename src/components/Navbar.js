@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="my-navbar">
       <ul className="my-navbar-nav">
         <li className="my-logo">
-          <a href="#" className="my-nav-link">
+          <Link to="/profile" className="my-nav-link">
             <span className="my-link-text">Dilovar</span>
             <svg
               aria-hidden="true"
@@ -31,7 +31,7 @@ const Navbar = () => {
                 ></path>
               </g>
             </svg>
-          </a>
+          </Link>
         </li>
 
         <li className="my-nav-item">
