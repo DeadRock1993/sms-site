@@ -1,0 +1,84 @@
+.profile-box {
+  width: 330px;
+  min-height: 370px;
+  background: var(--bg-primary);
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+}
+.profile-box svg {
+  width: 100px;
+}
+.user-info {
+  list-style: none;
+  padding: 10px;
+}
+.user-info li {
+  padding: 5px;
+  margin: 10px;
+}
+.user-info span {
+  font-size: 16px;
+}
+.ck-editor__editable {
+  min-height: 200px;
+}
+/*inputs*/
+.inputs {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+/* The add note button */
+.add-btn {
+  position: fixed;
+  z-index: 1;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1f1f1;
+  background: var(--bg-primary);
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.8);
+  transition: transform 0.06s ease;
+}
+.add-btn:hover {
+  transform: scale(1.2);
+}
+.add-btn:focus {
+  outline: none;
+}
+
+/* Textinput */
+.textInput {
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background: var(--bg-primary);
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.table {
+  margin-bottom: 150px;
+  margin-left: 15px;
+}
