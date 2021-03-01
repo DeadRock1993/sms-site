@@ -139,7 +139,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .my-nav-link svg {
+<<<<<<< HEAD
   width: 25px;
+=======
+>>>>>>> 5fb8043cc9154d11719a4a36d3731d7ea8256b34
   min-width: 2rem;
   margin: 0 1.5rem;
 }
